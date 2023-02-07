@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Repository
-        uses: Sunwoo0110/IREM@v1.0.32
+        uses: Sunwoo0110/IREM@v1.0.33
         with:
           github-repo-url: https://github.com/Sunwoo0110/action_IREM_test
           github-user-id: Sunwoo0110
