@@ -13,11 +13,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Repository
-        uses: Sunwoo0110/IREM@v1.0.6
+        uses: Sunwoo0110/IREM@v1.0.8
         with:
-          github-repo-url: ${{ inputs.github-repo-url }}
-          github-user-id: ${{ inputs.github-user-id }}
-          github-user-email: ${{ inputs.github-user-email }}
+          github-repo-url: https://github.com/Sunwoo0110/action_IREM_test
+          github-user-id: Sunwoo0110
+          github-user-email: Sunwoo0110@g.skku.edu
           github-token: ${{ secrets.GH_TOKEN }}
       - name: Test finish
         run: echo "test was good"
