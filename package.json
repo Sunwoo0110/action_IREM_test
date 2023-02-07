@@ -1,0 +1,28 @@
+{
+    "name": "action_IREM_test",
+    "version": "1.0.0",
+    "description": "action_IREM_test",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --watch src/ src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sunwoo0110/action_IREM_test"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sunwoo0110/action_IREM_test/issues"
+    },
+    "homepage": "https://github.com/Sunwoo0110/action_IREM_test#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mysql2": "^2.3.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.18"
+    }
+}
